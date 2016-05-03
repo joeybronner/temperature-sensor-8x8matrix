@@ -1,11 +1,11 @@
 # Temperature Sensor 8x8 Matrix
 Arduino 8x8 matrix controlled by temperature sensor
 
-## Full article
+### Full article
 No blog article for the moment  
 
-## Prototype
+### Prototype
 ![Prototype](http://www.webtenerifefr.com/_layouts/Trentia.Turismo/images/nophoto.jpg)  
 
-## Screen connection
+### Screen connection
 ![Prototype](http://www.webtenerifefr.com/_layouts/Trentia.Turismo/images/nophoto.jpg)    
