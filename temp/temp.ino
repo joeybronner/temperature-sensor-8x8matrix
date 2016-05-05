@@ -105,7 +105,18 @@ void refreshScreen() {
 // [ ][ ][ ][ ][ ][ ][ ][ ]
 // [ ][ ][ ][ ][o][ ][ ][ ]
 void whathappens() {
-  
+  pixels[2][1] = LOW;
+  pixels[1][2] = LOW;
+  pixels[1][3] = LOW;
+  pixels[1][4] = LOW;
+  pixels[1][5] = LOW;
+  pixels[2][6] = LOW;
+  pixels[3][6] = LOW;
+  pixels[4][5] = LOW;
+  pixels[4][4] = LOW;
+  pixels[5][4] = LOW;
+  pixels[6][4] = LOW;
+  pixels[8][4] = LOW;
 }
 
 // [ ][ ][ ][ ][ ][ ][ ][ ]
