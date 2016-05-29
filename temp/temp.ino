@@ -38,7 +38,11 @@ int y = 5;
 // sensor analog pin
 int sensor = analogRead(0);
 
-void setup() {  
+void setup() { 
+
+  // Serial connection
+  Serial.begin(9000);
+  
   // initialize the I/O pins as outputs : iterate over the pins and initialize it
   for (int thisPin = 0; thisPin < 8; thisPin++) {
     pinMode(col[thisPin], OUTPUT);
@@ -62,9 +66,9 @@ void loop() {
   clean();
   if (temperatureC < 19) {
     sad();
-  } else if (temperatureC >= 19 && temperatureC < 23) {
+  } else if (temperatureC >= 19 && temperatureC < 25) {
     smile();
-  } else if (temperatureC >= 23) {
+  } else if (temperatureC >= 25) {
     sad();
   } else {
     whathappens();
@@ -116,7 +120,7 @@ void whathappens() {
   pixels[4][4] = LOW;
   pixels[5][4] = LOW;
   pixels[6][4] = LOW;
-  pixels[8][4] = LOW;
+  pixels[7][4] = LOW;
 }
 
 // [ ][ ][ ][ ][ ][ ][ ][ ]
